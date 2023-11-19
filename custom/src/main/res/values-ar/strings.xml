@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_search">البحث</string>
+    <string name="title_category">الفئات</string>
+    <string name="title_cart">العربة</string>
+    <string name="title_more">المزيد</string>
+    <string name="email_error_msg">ادخل البريد الالكتروني بشكل صحيح</string>
+    <string name="pass_error_msg">ادخل كلمة المرور بشكل صحيح</string>
+    <string name="phone_error_msg">ادخل رقم التليفون بشكل صحيح</string>
+    <string name="egyptian_id_error_msg">ادخل الرقم القومي بشكل صحيح</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="fill_name_error_msg">املئ الخانة بشكل صحيح</string>
+    <string name="must_fill_this_field">يجب ملئ هذا الحقل بشكل صحيح</string>
+    <string name="name">الاسم</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="national_id">الرقم القومي</string>
+    <string name="optional">(اختياري)</string>
+
+    <string name="show_details">تفاصيل</string>
+    <string name="must_choose_to_continue">يجب عليك الاختيار لامكانية الاستكمال</string>
+    <string name="new_password">الرقم السري الجديد</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="old_password">الرقم السري القديم</string>
+    <string name="change_password">تغيير كلمة السر</string>
+    <string name="message">الرسالة</string>
+    <string name="change_pass">تغيير كلمة السر</string>
+    <string name="edit_profile">تعديل الحساب</string>
+    <string name="order_sent">تم الارسال</string>
+    <string name="massege_sent">تم ارسال الرسالة بنجاح</string>
+
+    <string name="change_lang">تغيير اللغة الى الانجليزية</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">اغلاق</string>
+    <string name="sign_in">تسجيل الدخول</string>
+
+    <string name="sign_up">انشئ حساب</string>
+    <string name="must_add_a_valid_phone">يجب ادخال رقم تليفون صحيح</string>
+    <string name="must_add_a_valid_name">يجب ادخال اسم صحيح</string>
+    <string name="must_add_a_valid_password">يجب ادخال رقم سري بشكل صحيح</string>
+    <string name="no_result">لا يوجد نتيجة</string>
+    <string name="edited">تم التعديل</string>
+    <string name="wait_for_seconds">انتظر لثواني</string>
+    <string name="forget_password">نسيت كلمة السر؟</string>
+    <string name="passoword_hint">الرقم السري</string>
+   <string name="phone_label">رقم جوال</string>
+
+</resources>

@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="title_home">Home</string>
+    <string name="title_category">Categories</string>
+    <string name="title_search">Search</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_more">More</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+
+
+
+
+
+<!--    dasda-->
+
+
+
+
+
+
+    <string name="view_all">View All</string>
+    <string name="important_brands">Important Brands</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_as_supplier">Sign Up As a Supplier</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="signin">Sign In</string>
+    <string name="email">E-mail</string>
+    <string name="sign_up_as_user">Sign Up As User</string>
+    <string name="passoword_hint">Password</string>
+    <string name="confirm_passoword_hint">Confirm Password</string>
+
+    <string name="name_label">الاسم</string>
+
+    <string name="product_title">Product Name</string>
+    <string name="phone_label">Phone</string>
+    <string name="phone_label_">رقم الهاتف</string>
+    <string name="phone_label1">رقم الجوال 1</string>
+    <string name="phone_label2">رقم الجوال 2</string>
+
+
+    <string name="email_error_msg">Enter a Valid E-Mail</string>
+    <string name="pass_error_msg">Enter a Valid Password</string>
+    <string name="phone_error_msg">Enter a Valid Phone Number</string>
+    <string name="egyptian_id_error_msg">Enter a Valid Egyptian ID Number</string>
+    <string name="fill_error_msg">This is a required</string>
+    <string name="fill_name_error_msg">Enter a valid data</string>
+
+    <string name="not_match_error_msg">Password confirmation does not match.</string>
+    <string name="all">All</string>
+    <string name="delete_all">Delete All</string>
+    <string name="recently_searched">Recently searched</string>
+    <string name="search_result">Result</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="product_details">Product Details</string>
+    <string name="offer">Offer</string>
+
+    <string name="company_name">Company Name</string>
+    <string name="complaint_address">Address</string>
+    <string name="product_picture">Product Picture</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="return_to_home">Return To Home</string>
+    <string name="request_sent">Your request has been sent</string>
+    <string name="request_sent_desc">Your request has been sent successfully and we will contact you as soon as possible</string>
+    <string name="next">Next</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="send_request">Send Request</string>
+    <string name="signup_supplier_msg">Your request has been successfully sent to the administration to create a reseller account, and we will contact you as soon as possible to activate your account</string>
+    <string name="offer_requests">Offer Requests</string>
+    <string name="log_out">Log out</string>
+    <string name="show_details">Show Details</string>
+    <string name="offer_details">Offer Details</string>
+    <string name="send_msg_or_call">You can send an Message on the offer or directly call</string>
+    <string name="send_message_to_admin">Send Message To Admin</string>
+    <string name="the_offer_sent">The Offer Sent</string>
+    <string name="admin">Admin</string>
+    <string name="download_offer">Download Offer</string>
+    <string name="msg_sent">Your Message has been sent</string>
+    <string name="please_wait">انتظر قليلا ...</string>
+    <string name="successfully_downloaded">Successfully Downloaded</string>
+    <string name="download_canceled">Download Canceled</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="are_u_sure_want_to_logout">Are you sure you want to logout?</string>
+    <string name="activat_your_account">Please activate your account via the link sent to your E-mail</string>
+    <string name="welcome">Welcome!</string>
+    <string name="change_lang">Change Language To Arabic</string>
+    <string name="wait_for_seconds">wait for seconds</string>
+    <string name="order_sent">Email sent</string>
+    <string name="massege_sent">Message sent</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_pass">Change Password</string>
+    <string name="message">Message</string>
+    <string name="edited">Edited</string>
+    <string name="no_result">No Result</string>
+    <string name="please_attach_the_required_files_to_ensure_that_your_offiacal_papers_data_is_correct">Please attach the required files to ensure that your Offiacal Papers data is correct</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_password">Change Password</string>
+    <string name="privecy_policy_link" translatable="false">https://aks-app.flycricket.io/privacy.html</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="server_error" translatable="false">Server Error</string>
+    <string name="must_fill_this_field">Must Fill This Field</string>
+    <string name="must_add_a_valid_phone">Must add a valid Phone</string>
+    <string name="must_add_a_valid_name">Must add a valid Name</string>
+<string name="must_add_a_valid_password">Must add a valid password (at least 1 CAPS + 1 Small+ number)</string>
+
+
+
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="national_id">National ID</string>
+    <string name="optional">(Optional)</string>
+    <string name="must_choose_to_continue">You Must Choose Something to Continue</string>
+
+</resources>

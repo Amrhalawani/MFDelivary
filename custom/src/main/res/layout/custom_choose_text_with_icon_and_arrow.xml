@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/background_squere_fillet12"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:id= "@+id/text"
+            style= "@style/editTextStyle2"
+            android:layout_height="50dp"
+            android:gravity = "start|center"
+            android:drawablePadding="16dp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_arrow_right_"
+             />
+
+        <TextView
+            android:id= "@+id/text_error"
+            android:layout_width= "wrap_content"
+            android:layout_height= "wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily= "@font/main_font_reguler"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/orange"
+            android:drawableStart="@drawable/ic_alert"
+            android:drawablePadding="10dp"
+            android:gravity="start"
+            android:visibility="gone"
+            tools:text="test error"
+
+           />
+    </LinearLayout>
+</merge>

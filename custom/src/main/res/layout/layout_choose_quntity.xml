@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="35dp"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btn_subtract_one_quantity"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_left_half_fillet_rec"
+        android:src="@drawable/ic_minus"/>
+
+    <TextView
+        android:id="@+id/text_quantity_quantity"
+        android:layout_width="33dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/main_font_reguler"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/btn_add_one_quantity"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_right_half_fillet_rec"
+        android:src="@drawable/ic_plus"
+       />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/text_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_egyptian_id"
+            android:fontFamily="@font/main_font_bold"
+            android:drawablePadding="10dp"
+            android:gravity="start|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/DarkBlue"
+            android:visibility="visible"
+            android:text = "@string/national_id"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_text"
+            style="@style/editTextStyle2"
+            android:layout_height="50dp"
+            android:drawablePadding="16dp"
+            />
+
+        <TextView
+            android:id="@+id/text_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/main_font_reguler"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/red"
+            android:gravity="start|center_vertical"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_alert"
+            android:visibility="gone"
+            tools:text="test error"
+
+            />
+    </LinearLayout>
+</merge>

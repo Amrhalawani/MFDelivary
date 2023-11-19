@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008199</color>
+    <color name="colorPrimaryDark">#008199</color>
+    <color name="colorAccent">#F0A202</color>
+
+
+
+    <color name="white_opicty10">#20FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitegrey">#EFEFEF</color>
+    <color name="grey">#77787B</color>
+    <color name="greyalpha">#F6F6F6</color>
+    <color name="grey2">#CCCCCC</color>
+    <color name="grey3">#B6B6B6</color>
+    <color name="light_grey">#D8D8D8</color>
+    <color name="black">#323232</color>
+    <color name="blueBlack">#26313F</color>
+    <color name="nearBlack">#071013</color>
+    <color name="orange">#FF5714</color>
+
+    <color name="prevBackground">#F2F7F8</color>
+    <color name="backGroundIcon">#015C6F</color>
+    <color name="DarkGrey">#7D7D7D</color>
+    <color name="DarkBlue">#0071B7</color>
+    <color name="LightBlue">#00ADEE</color>
+    <color name="whiteGrey">#CCCCCC</color>
+    <color name="midgrey">#707070</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="offWhite">#F9F9F9</color>
+
+    <color name="alphaBackGround">#50015C6F</color>
+    <color name="solitude">#E1F0FF</color>
+    <color name="white_littlegreen_for_items">#fcfdfe</color>
+    <color name="green">#0A9E56</color>
+    <color name="red">#FC3426</color>
+
+</resources>
