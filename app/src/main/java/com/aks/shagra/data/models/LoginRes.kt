@@ -33,9 +33,6 @@ data class User(
 	@field:SerializedName("code")
 	val code: String? = null,
 
-	@field:SerializedName("social_links")
-	val socialLinks: SocialLinks? = null,
-
 	@field:SerializedName("name")
 	val name: String? = null,
 
@@ -45,8 +42,6 @@ data class User(
 	@field:SerializedName("id")
 	val id: Int? = null,
 
-	@field:SerializedName("latest_courses")
-	val latest_courses: ArrayList<ImageItem>? = null,
 
 	@field:SerializedName("avatar")
 	val avatar: String? = null,
@@ -64,24 +59,7 @@ data class User(
 	val about: String? = null
 
 
-): Parcelable
+): Parcelable {
 
-@Parcelize
-data class SocialLinks(
+}
 
-	@field:SerializedName("twitter_link")
-	val twitter_link: String? = null,
-
-
-	@field:SerializedName("facebook_link")
-	val facebook_link: String? = null,
-
-
-	@field:SerializedName("whatsapp_link")
-	val whatsapp_link: String? = null,
-
-
-	@field:SerializedName("instagram_link")
-	val instagram_link: String? = null,
-
-):Parcelable

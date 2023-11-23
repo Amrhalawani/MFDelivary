@@ -68,23 +68,6 @@ class AuthViewModel @Inject constructor(private val mainRepository: NetworkRepos
         return data
     }
 
-    fun getProfile(
-
-    ): MutableLiveData<ProfileRes?> {
-        val data = MutableLiveData<ProfileRes?>()
-        disposables.add(
-            mainRepository.getProfile(
-            )
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe({
-                    data.value = it
-                }, { throwable ->
-                    data.value = handleErrorBody(throwable, ProfileRes::class.java)
-                })
-        )
-        return data
-    }
 
     fun sendOtp(phone: String, if_demo: String,): MutableLiveData<DefaultRes?> {
         val data = MutableLiveData<DefaultRes?>()

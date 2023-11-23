@@ -5,12 +5,12 @@ plugins {
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
     id 'androidx.navigation.safeargs'
-    id 'kotlin-android-extensions'
+ //   id 'kotlin-android-extensions'
     id 'com.google.gms.google-services'
 
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 
-
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -73,23 +73,8 @@ android {
             def isDemo = "IS_DEMO_APP"
 
             // Specific values
-            buildConfigField "String", baseUrl, BASE_URL_ALNASHWAN
+            buildConfigField "String", baseUrl, BASE_URL
             buildConfigField "boolean", isDemo, "false"
-
-            if (name.contains("demo")) {
-                buildConfigField "String", baseUrl, BASE_URL_DEMO
-                buildConfigField "boolean", isDemo, "true"
-            } else if (name.contains("alshuwaimi")) {
-                buildConfigField "String", baseUrl, BASE_URL_ALSHUWAIMI
-                buildConfigField "boolean", isDemo, "false"
-            } else if (name.contains("aljamaz")) {
-
-                buildConfigField "String", baseUrl, BASE_URL_ALJAMAZ
-                buildConfigField "boolean", isDemo, "false"
-            } else {
-                buildConfigField "String", baseUrl, BASE_URL_ALNASHWAN
-                buildConfigField "boolean", isDemo, "false"
-            }
     }
 
 }
@@ -117,6 +102,13 @@ dependencies {
 
     //custom views
     implementation project(path: ':custom')
+
+    //RoomDB
+    def room_version = '2.4.3'
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    implementation "androidx.room:room-runtime:$room_version"
+
 
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     //  implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'

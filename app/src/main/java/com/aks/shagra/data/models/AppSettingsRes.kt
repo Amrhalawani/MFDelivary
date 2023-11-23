@@ -41,8 +41,6 @@ data class SettingsData(
     @field:SerializedName("contacts")
     val contacts: Contacts? = null,
 
-    @field:SerializedName("social_media_icons")
-    val social_media_icons: ArrayList<SocialLinksItem>? = null,
 
     )
 
