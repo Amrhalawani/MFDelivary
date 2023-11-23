@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.aks.shagra.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash_m">
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.aks.shagra.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home_m"/>
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.aks.shagra.ui.auth.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth_m">
+        <action
+            android:id="@+id/action_authFragment_to_signInFragmen"
+            app:destination="@id/signInFragmen" />
+        <action
+            android:id="@+id/action_authFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragmen"
+        android:name="com.aks.shagra.ui.auth.SignInFragmen"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in_m">
+        <action
+            android:id="@+id/action_signInFragmen_to_otpFragment"
+            app:destination="@id/otpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.aks.shagra.ui.auth.OtpFragment"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp_m">
+        <action
+            android:id="@+id/action_otpFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="phone"
+            app:argType="string" />
+        <argument
+            android:name="authType"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+
+        <argument
+            android:name="if_demo_account"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.aks.shagra.ui.signing.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up_m">
+        <action
+            android:id="@+id/action_signUpFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+    </fragment>
+</navigation>

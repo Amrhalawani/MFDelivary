@@ -1,0 +1,101 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.12916246215943492" />
+        <entry key="app/src/main/res/drawable-hdpi/ic_text_cover.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable-mdpi/background_squere_fillet2.xml" value="0.149" />
+        <entry key="app/src/main/res/drawable-mdpi/background_squere_stroke_fillet.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable-v24/background_rectangle_full_fillet.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable-v24/background_squere_fillet.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-xhdpi/background_circle.xml" value="0.11" />
+        <entry key="app/src/main/res/drawable-xhdpi/background_rectangle_round.xml" value="0.183" />
+        <entry key="app/src/main/res/drawable/background_bottom_sheet.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/background_rectangle_full_fillet.xml" value="0.11" />
+        <entry key="app/src/main/res/drawable/background_rectangle_round.xml" value="0.1725" />
+        <entry key="app/src/main/res/drawable/background_squere_fillet12.xml" value="0.2355" />
+        <entry key="app/src/main/res/drawable/ic_account_item.xml" value="0.1725" />
+        <entry key="app/src/main/res/drawable/ic_all_news.xml" value="0.2615" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/ic_background_page.xml" value="0.2625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.11" />
+        <entry key="app/src/main/res/drawable/ic_baseline_play_circle_outline_24.xml" value="0.153" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_group.xml" value="0.1725" />
+        <entry key="app/src/main/res/drawable/ic_home_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/ic_news_nav.xml" value="0.1125" />
+        <entry key="app/src/main/res/drawable/ic_profile_nav.xml" value="0.1125" />
+        <entry key="app/src/main/res/drawable/ic_text_cover.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/ic_upload2.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/ic_vector_clos.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/ic_whasapp.xml" value="0.2155" />
+        <entry key="app/src/main/res/font/main_font_bold.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/font/main_font_reguler.xml" value="0.18518518518518517" />
+        <entry key="app/src/main/res/layout/activity_exo_player.xml" value="0.30077819824218754" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24402364095052081" />
+        <entry key="app/src/main/res/layout/activity_web.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/bottom_sheet_y_n.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.35037684088585364" />
+        <entry key="app/src/main/res/layout/fragment_add_born.xml" value="0.35116475423177085" />
+        <entry key="app/src/main/res/layout/fragment_adddead.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_album_details.xml" value="0.35185185185185186" />
+        <entry key="app/src/main/res/layout/fragment_albums.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_auth.xml" value="0.28768513997395834" />
+        <entry key="app/src/main/res/layout/fragment_certificates.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_descent.xml" value="0.1894948323567708" />
+        <entry key="app/src/main/res/layout/fragment_edit_profile.xml" value="0.3260716756184896" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/fragment_gallery_details.xml" value="0.35185185185185186" />
+        <entry key="app/src/main/res/layout/fragment_gallery_details_albums.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.41874084472656253" />
+        <entry key="app/src/main/res/layout/fragment_my_profile.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_news.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/fragment_news_details.xml" value="0.31991271972656254" />
+        <entry key="app/src/main/res/layout/fragment_news_details_weddings.xml" value="0.28138631184895835" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_others_profile.xml" value="0.5158045977011494" />
+        <entry key="app/src/main/res/layout/fragment_otp.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_persons.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.3292079207920792" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.33523661295572915" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_tree.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/item_album.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/item_albums_by_date.xml" value="0.3181818079065394" />
+        <entry key="app/src/main/res/layout/item_certification.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/item_file.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_image.xml" value="0.32665456136067705" />
+        <entry key="app/src/main/res/layout/item_main_gallery.xml" value="0.3284169514973958" />
+        <entry key="app/src/main/res/layout/item_news_category_selected.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/item_news_category_unselected.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/item_news_full_image.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/item_news_h.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/item_news_icon.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/layout/item_person.xml" value="0.37395833333333334" />
+        <entry key="app/src/main/res/layout/item_persons.xml" value="0.36071523030598956" />
+        <entry key="app/src/main/res/layout/view_action_bar.xml" value="0.3692708333333333" />
+        <entry key="app/src/main/res/menu/home_nav.xml" value="0.190625" />
+        <entry key="custom/src/main/res/drawable-ldpi/background_btn_fillet_white.xml" value="0.1725" />
+        <entry key="custom/src/main/res/drawable/background_circle_accent.xml" value="0.1725" />
+        <entry key="custom/src/main/res/drawable/background_circle_white.xml" value="0.1725" />
+        <entry key="custom/src/main/res/drawable/background_small_squere_fillet10.xml" value="0.1965" />
+        <entry key="custom/src/main/res/drawable/background_squere_fillet10_dash.xml" value="0.211" />
+        <entry key="custom/src/main/res/drawable/background_squere_fillet12.xml" value="0.234" />
+        <entry key="custom/src/main/res/drawable/background_squere_fillet20.xml" value="0.1725" />
+        <entry key="custom/src/main/res/layout/custom_c_edit_text_view.xml" value="0.37395833333333334" />
+        <entry key="custom/src/main/res/layout/custom_general_editview_with_icon.xml" value="0.37395833333333334" />
+        <entry key="custom/src/main/res/layout/custom_name_address_edit_text_view.xml" value="0.37395833333333334" />
+        <entry key="custom/src/main/res/layout/custom_name_address_text_view.xml" value="0.2265625" />
+        <entry key="custom/src/main/res/layout/custom_phone_edit_view.xml" value="0.3504430135091146" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

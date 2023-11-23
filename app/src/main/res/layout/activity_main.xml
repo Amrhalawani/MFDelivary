@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/pageBackground"
+    tools:context=".ui.main.MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#00FFFFFF"
+        android:contentInsetStart="0dp"
+        android:visibility="gone"
+        app:contentInsetStart="0dp"
+        app:layout_collapseMode="pin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextAppearance="@font/main_font_bold">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_back_main"
+                    style="@style/RippleEffect"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_back"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_title_toolbar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/main_font_bold"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingTop="4dp"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toStartOf="@+id/image_menu"
+                    app:layout_constraintStart_toEndOf="@+id/image_back_main"
+                    tools:text="@string/dummy_title" />
+
+                <ImageView
+                    android:id="@+id/image_menu"
+                    style="@style/RippleEffect"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_menu"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <fragment
+        android:id="@+id/nav_host_fragment_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/ll_bb"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_main"
+        app:navGraph="@navigation/nav_graph" />
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--        android:id="@+id/bottom_navigation"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="@dimen/bottom_nav_bar_height"-->
+    <!--        android:background="@drawable/background_upper_corners"-->
+    <!--        android:outlineAmbientShadowColor="@android:color/transparent"-->
+    <!--        android:outlineSpotShadowColor="@android:color/transparent"-->
+    <!--        app:itemIconTint="@drawable/bottom_nav_color"-->
+    <!--        app:itemTextColor="@drawable/bottom_nav_color"-->
+    <!--        app:labelVisibilityMode="labeled"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:menu="@menu/home_nav" />-->
+
+
+    <LinearLayout
+        android:id="@+id/ll_bb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingHorizontal="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <me.ibrahimsn.lib.SmoothBottomBar
+            android:id="@+id/bottombar_home"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:backgroundColor="@color/white"
+            app:iconTint="@color/grey"
+            app:indicatorColor="@color/colorAccent"
+
+            app:menu="@menu/home_nav"
+            app:sideMargins="0dp"
+            app:textColor="@color/white"
+            app:textSize="11sp" />
+
+    </LinearLayout>
+
+
+    <!--        app:indicatorRadius=""-->
+    <!--        app:cornerRadius=""-->
+    <!--        app:corners=""-->
+    <!--        app:sideMargins=""-->
+    <!--        app:itemPadding=""-->
+    <!--        app:itemFontFamily=""-->
+    <!--        app:iconSize=""-->
+    <!--        app:iconTint="@color/grey"-->
+    <!--        app:iconTintActive=""-->
+    <!--        app:activeItem=""-->
+    <!--        app:duration=""-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_main_progress"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:cardBackgroundColor="#BFF1FFF1"
+        app:cardCornerRadius="45dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_main">
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

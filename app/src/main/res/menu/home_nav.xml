@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+
+        android:icon="@drawable/ic_home_nav"
+        android:title="@string/home"
+    />
+
+    <item
+        android:id="@+id/newsFragment"
+
+        android:icon="@drawable/ic_news_nav"
+        android:title="@string/news"
+ />
+
+    <item
+        android:id="@+id/galleryFragment"
+
+        android:icon="@drawable/ic_gallery_nav"
+        android:title="@string/gallery"
+      />
+
+    <item
+        android:id="@+id/treeFragment"
+
+        android:icon="@drawable/ic_tree_nav"
+        android:title="@string/family_tree"
+   />
+
+
+    <item
+        android:id="@+id/accountFragment"
+
+        android:icon="@drawable/ic_profile_nav"
+        android:title="@string/profile"
+   />
+
+</menu>

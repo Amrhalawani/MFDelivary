@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:id="@+id/text_dialog_title"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+
+            android:fontFamily="@font/main_font_bold"
+            android:text="@string/hint" />
+
+
+        <ImageView
+            android:id="@+id/image_close"
+
+            style="@style/backBtnStyle"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_close_24"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:layout_marginBottom="16dp"
+        android:background="@color/light_grey" />
+
+
+
+
+    <TextView
+        android:id="@+id/text_desc_dialog"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/main_font_reguler"
+        android:text="@string/u_have_to_enable_location" />
+
+
+
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@color/light_grey" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/btn_yes"
+            style="@style/RippleEffect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:fontFamily="@font/main_font_reguler"
+            android:text="@string/settings"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <Button
+            android:id="@+id/btn_no"
+            style="@style/RippleEffect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:fontFamily="@font/main_font_reguler"
+            android:text="@string/close"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

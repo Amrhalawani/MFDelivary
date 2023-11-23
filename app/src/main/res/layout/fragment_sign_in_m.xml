@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        tools:context=".ui.auth.SignInFragmen">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@color/pageBackground"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/main_font_bold"
+            android:text="تسجيل الدخول"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/main_font_reguler"
+            android:text="مرحبا بعودتك مرة أخري"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="-65dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            tools:layout_editor_absoluteX="16dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_sign_in_image"
+                        android:layout_marginTop="20sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/main_font_bold"
+                        android:text="أدخل رقم جوالك لتسجيل الدخول"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintBottom_toTopOf="@+id/cardView"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/main_font_reguler"
+                        android:text="من فضلك قم بإدخال رقم الجوال الذي قمت بالتسجيل به لدينا"
+                        android:textColor="@color/lightBlack"
+                        app:layout_constraintBottom_toTopOf="@+id/cardView"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.amrhal.custom.customViews.CEditPhoneView
+                        android:id = "@+id/et_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp" />
+
+                    <com.amrhal.custom.customViews.CNameEditView
+                        android:id="@+id/et_demo_account"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp" />
+                    <LinearLayout
+                        android:id="@+id/ll_terms_conditions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintTop_toBottomOf="@+id/referralET"
+                        app:layout_constraintEnd_toEndOf="@+id/phoneViewSignUp"
+                        app:layout_constraintStart_toStartOf="@+id/phoneViewSignUp"
+                        >
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/check_terms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/i_have_read_and_agree_to"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/cairo_bold"
+                            android:paddingStart="10dp"
+                            android:paddingVertical="10dp"
+                            android:checked="false"
+                            android:background="@android:color/transparent"
+                            app:layout_constraintEnd_toEndOf="@+id/phoneViewSignUp"
+                            app:layout_constraintTop_toBottomOf="@+id/phoneViewSignUp"
+                            app:layout_constraintStart_toStartOf="@+id/phoneViewSignUp" />
+
+                        <TextView
+                            android:id="@+id/text_to_terms_conditions"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorAccent"
+                            android:padding="4dp"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/cairo_bold"
+                            android:text="@string/termsandcondition"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/text_signin_to_otp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="54dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/background_rectangle_round"
+                        android:backgroundTint="@color/greenDark"
+                        android:fontFamily="@font/main_font_bold"
+                        android:gravity="center"
+                        android:layout_marginBottom="40dp"
+                        android:text="@string/continue_"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
