@@ -1,10 +1,12 @@
 package com.aks.shagra.ui.main
 
+import HomeFragment
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
-import com.aks.shagra.*
-import com.aks.shagra.ui.home.HomeFragment
+import androidx.annotation.LayoutRes
+import androidx.databinding.DataBindingUtil
+import androidx.databinding.ViewDataBinding
 import com.aks.shagra.utils.hideKeyboard
 import com.yariksoffice.lingver.Lingver
 
